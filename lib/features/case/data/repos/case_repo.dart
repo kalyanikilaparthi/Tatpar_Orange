@@ -1487,8 +1487,8 @@ class CaseRepo {
     final result = await NetworkManager.instance.perform(request);
     if (result.status == Status.ok) {
       final List<dynamic> caseDataList = result.data['data']['cases'];
-      final List<Case> cases =
-          caseDataList.map<Case>((e) => Case.fromJson(e)).toList();
+      final cases = caseDataList.map<Case>((e) => Case.fromJson(e)).toList();
+
       // Iterate through the cases fetched from the network
       for (final caseItem in cases) {
         // Check if the case with the same ID already exists in the Hive box
@@ -1504,7 +1504,7 @@ class CaseRepo {
         }
       }
 
-      return cases;
+      return dataBox.values.toList();
     } else {
       final List<Case> storedData = dataBox.values.toList();
 
@@ -2540,7 +2540,7 @@ class CaseRepo {
   }) async {
     final context = navigatorKey.currentContext!;
     final sourceCubit = context.read<SourceCubit>();
-    Box<Case> caseBox = Hive.box<Case>('caseList');
+    final caseBox = Hive.box<Case>('caseList');
     Case caseModelToSave;
     final caseIdToSearch = model?.caseId ??
         tbModel?.caseId ??

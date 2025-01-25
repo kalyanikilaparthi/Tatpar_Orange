@@ -304,10 +304,10 @@ class TreatmentPage extends StatelessWidget {
         cpNutritionSupport: formData['cp_nutrition_support'] as String?,
         selectedTreatmentHistoryResult: cubit.selectedTreatmentHistoryResult,
         nikshayId: formData['nikshay_id'] as String?,
-        isUpdated: false,
         ihvChecklist: formData['ihv_checklist'] as List<bool>?,
         ipfuGxRr: formData['ipfu_gx_rr'] as String?,
         cpGxRr: formData['cp_gx_rr'] as String?,
+        isUpdated: cubit.state.treatmentModel?.isUpdated ?? false,
       );
       await cubit.updateTreatmentData(treatmentModel);
     } else {

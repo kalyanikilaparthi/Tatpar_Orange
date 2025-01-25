@@ -63,7 +63,7 @@ class OutcomePage extends StatelessWidget {
           nutritionProvided: formData['nutrition_provided'] as String?,
           selectedtreatmentOutcome: cubit.selectedTreatmentOutcome,
           treatmentComments: formData['treatment_comments'] as String?,
-          isUpdated: false);
+          isUpdated: cubit.state.outcomeModel?.isUpdated ?? false);
       await cubit.updateOutcomeData(outcomeModel);
     } else {
       formGroup.markAllAsTouched();

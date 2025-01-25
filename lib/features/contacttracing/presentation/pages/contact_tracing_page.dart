@@ -98,7 +98,7 @@ class ContactTracingPage extends StatelessWidget {
           tptSideEffects: formData['tpt_side_effects'] as String?,
           tptOutcomeDate: formData['tpt_outcome_date'] as DateTime?,
           tptOutcome: formData['tpt_outcome'] as String?,
-          isUpdated: false);
+          isUpdated: cubit.state.contactTracingModel?.isUpdated ?? false);
 
       await cubit.updateContactTracingData(contactTracingModel,
           contactTracingCubit.state.contactTracingModel.id);

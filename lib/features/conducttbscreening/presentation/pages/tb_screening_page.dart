@@ -135,7 +135,7 @@ class TBScreeningPage extends StatelessWidget {
           cxrScreening: formData['cxr_screening'] as String?,
           cxrScreeningDate: formData['cxr_screening_date'] as DateTime?,
           cxrScreeningResult: formData['cxr_screening_result'] as String?,
-          isUpdated: false);
+          isUpdated: cubit.state.tbScreeningModel?.isUpdated ?? false);
 
       await cubit.updateTbScreeningData(tbScreeningModel);
     } else {
