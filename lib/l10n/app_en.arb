@@ -13,8 +13,8 @@
     "afb2Result":"AFB_2_Result",
     "afb2ResultDate":"AFB_2_result_date",
     "spirometry":"Spirometry?",
-    "fev":"FEV",
-    "fec":"FEC",
+    "fev":"FEV1",
+    "fec":"FVC",
     "ratio":"FEV /FEC Ratio",
     "naatTest":"Naat_yes_no",
     "naatMachine":"Naat Machine",
@@ -207,5 +207,5 @@
     "hungryButDidNotEat": "7. You were hungry but did not eat?",
     "wentWithoutEating": "8. You went without eating for a whole day?",
     "linkageDate": "Date of Linkage",
-    "faqChecklist":"FAQ Checklist" 
+    "faqChecklist":"FAO Checklist" 
 }

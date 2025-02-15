@@ -524,7 +524,7 @@ class CaseCubit extends Cubit<CaseState> {
       FaqChecklistModel faqChecklistModel) async {
     final response = await caseRepo.saveFaqChecklistData(
         model: faqChecklistModel,
-        id: state.caseWorkedUpon.outcomeValue,
+        id: state.caseWorkedUpon.faqChecklist,
         caseId: state.caseWorkedUpon.id);
     emit(
       state.copyWith(
@@ -533,7 +533,7 @@ class CaseCubit extends Cubit<CaseState> {
         faqCheckListModel: response,
       ),
     );
-    getFaqCheckListData(state.caseWorkedUpon.outcomeValue);
+    getFaqCheckListData(state.caseWorkedUpon.faqChecklist);
   }
 
   List<WorkflowItem> workflows(Case workingCase) {

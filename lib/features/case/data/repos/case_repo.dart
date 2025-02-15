@@ -1327,6 +1327,8 @@ class CaseRepo {
   Future<FaqChecklistModel> getFaqChecklist({
     required int? id,
   }) async {
+    log('ID======================$id'.toString());
+
     Box<FaqChecklistModel> faqDataBox =
         Hive.box<FaqChecklistModel>('faqCheckListModel');
     log(' FaqCheckList Box Contains======================${faqDataBox.values.toList()}'

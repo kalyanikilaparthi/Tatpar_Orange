@@ -17,6 +17,6 @@ const contactTracingListUrl = '$baseUrl/api/fetch/contact-tracing';
 const outcomeUrl = '$baseUrl/api/outcome';
 const casesForHealthWorkerUrl = '$baseUrl/api/case?logged_in_user=';
 const usersUrl = '${baseUrl}users/api/users/add-list';
-const faqUrl = '$baseUrl/api/faochecklist';
+const faqUrl = '${baseUrl}api/faochecklist';
 
 const getSingleCaseUrl = '$baseUrl/api/case/get-delete';

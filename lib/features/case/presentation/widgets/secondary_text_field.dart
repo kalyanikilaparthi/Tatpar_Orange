@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tatpar_acf/configurations/theme/colors.dart';
 import 'package:tatpar_acf/configurations/theme/size_constants.dart';
 
-class SecondaryTextField extends StatelessWidget {
+class SecondaryTextField<T> extends StatelessWidget {
   const SecondaryTextField(
       {super.key,
       required this.text,
@@ -10,7 +10,7 @@ class SecondaryTextField extends StatelessWidget {
       this.icon = Icons.arrow_forward,
       this.onPressed});
 
-  final String text;
+  final T text;
   final String label;
   final IconData? icon;
   final VoidCallback? onPressed;
@@ -36,7 +36,7 @@ class SecondaryTextField extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                text,
+                text.toString(),
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontSize: 15,
                     height: 2.2,
