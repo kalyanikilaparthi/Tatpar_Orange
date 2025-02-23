@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "tatpar_acf" "\0"
+            VALUE "FileDescription", "tatpar_orange" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "tatpar_acf" "\0"
+            VALUE "InternalName", "tatpar_orange" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "tatpar_acf.exe" "\0"
-            VALUE "ProductName", "tatpar_acf" "\0"
+            VALUE "OriginalFilename", "tatpar_orange.exe" "\0"
+            VALUE "ProductName", "tatpar_orange" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

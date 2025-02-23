@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:reactive_forms/reactive_forms.dart';
-import 'package:tatpar_acf/features/mentalhealthscreening/model/mental_health_screening_model.dart';
-import 'package:tatpar_acf/features/mentalhealthscreening/model/who_srq_model.dart';
+import 'package:tatpar_orange/features/mentalhealthscreening/model/mental_health_screening_model.dart';
+import 'package:tatpar_orange/features/mentalhealthscreening/model/who_srq_model.dart';
 part 'who_srq_cubit.freezed.dart';
 
 part 'who_srq_cubit.g.dart';

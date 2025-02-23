@@ -17,7 +17,7 @@
   </intent>
 </queries>
     <application
-        android:label="tatpar_acf"
+        android:label="tatpar_orange"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

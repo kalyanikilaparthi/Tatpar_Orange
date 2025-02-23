@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../../../configurations/configurations.dart';
 
-class NBSAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const NBSAppBar({
+class TatparOrangeAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const TatparOrangeAppBar({
     super.key,
     this.appBarTitleText,
     this.appBarTitleWidget,

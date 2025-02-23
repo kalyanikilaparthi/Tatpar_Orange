@@ -1,8 +1,8 @@
 import 'package:djangoflow_app/djangoflow_app.dart';
 
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/constants/constants.dart';
-import 'package:tatpar_acf/features/home/presentation/widgets/quick_action_button.dart';
+import 'package:tatpar_orange/configurations/constants/constants.dart';
+import 'package:tatpar_orange/features/home/presentation/widgets/quick_action_button.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class LoginRegisterTab extends StatefulWidget {

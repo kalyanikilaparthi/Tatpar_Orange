@@ -3,11 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:progress_builder/progress_builder.dart';
 import 'package:reactive_forms/reactive_forms.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
-import 'package:tatpar_acf/features/app/presentation/widgets/primary_text_field.dart';
-import 'package:tatpar_acf/features/authentication/blocs/auth_cubit.dart';
-import 'package:tatpar_acf/features/authentication/presentation/widgets/auth_button.dart';
-import 'package:tatpar_acf/features/authentication/presentation/widgets/login_register_toggle.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
+import 'package:tatpar_orange/features/app/presentation/widgets/primary_text_field.dart';
+import 'package:tatpar_orange/features/authentication/blocs/auth_cubit.dart';
+import 'package:tatpar_orange/features/authentication/presentation/widgets/auth_button.dart';
+import 'package:tatpar_orange/features/authentication/presentation/widgets/login_register_toggle.dart';
 
 @RoutePage()
 class PhoneLoginPage extends StatefulWidget {
@@ -56,27 +56,31 @@ class _PhoneLoginPageState extends State<PhoneLoginPage> {
                   onSubmitted: (_) {
                     form.markAllAsTouched();
                     if (form.valid) {
-                      DefaultActionController.of(context)
-                          ?.add(ActionType.start);
+                      DefaultActionController.of(context)?.add(ActionType.start);
                     }
                   },
                   formControlName: 'phone',
                   label: 'Phone number',
                   keyboardType: TextInputType.phone,
+                  autofillHints: const [
+                    AutofillHints.telephoneNumber,
+                  ],
                 ),
                 PrimaryTextField(
                   autoFocus: true,
                   onSubmitted: (_) {
                     form.markAllAsTouched();
                     if (form.valid) {
-                      DefaultActionController.of(context)
-                          ?.add(ActionType.start);
+                      DefaultActionController.of(context)?.add(ActionType.start);
                     }
                   },
                   formControlName: 'password',
                   label: 'Password',
                   keyboardType: TextInputType.visiblePassword,
                   obscureText: isObscure,
+                  autofillHints: const [
+                    AutofillHints.password,
+                  ],
                   suffixIcon: GestureDetector(
                     onTap: () {
                       setState(() {
@@ -100,8 +104,7 @@ class _PhoneLoginPageState extends State<PhoneLoginPage> {
                           ? () async {
                               final phoneControl = form.control('phone');
                               final passwordControl = form.control('password');
-                              await authCubit.loginWithPhoneAndPass(
-                                  phoneControl.value, passwordControl.value);
+                              await authCubit.loginWithPhoneAndPass(phoneControl.value, passwordControl.value);
                             }
                           : null,
                     );

@@ -2,11 +2,11 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:tatpar_acf/features/case/data/source_models/caste_category_model.dart';
-import 'package:tatpar_acf/features/case/data/source_models/key_population_model.dart';
-import 'package:tatpar_acf/features/case/data/source_models/referral_districts_model.dart';
-import 'package:tatpar_acf/features/case/data/source_models/referrer_source_model.dart';
-import 'package:tatpar_acf/features/case/data/source_models/trimester_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/caste_category_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/key_population_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/referral_districts_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/referrer_source_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/trimester_model.dart';
 
 part 'data_model.freezed.dart';
 part 'data_model.g.dart';

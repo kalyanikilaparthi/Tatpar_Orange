@@ -1,5 +1,4 @@
-import 'package:tatpar_acf/configurations/configurations.dart';
-import 'package:tatpar_acf/utils/custom_tranisitions_route.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
 
 final authRoutes = [
   AutoRoute(

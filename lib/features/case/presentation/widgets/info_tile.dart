@@ -1,6 +1,6 @@
 import 'package:dotted_line/dotted_line.dart';
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
 
 class InfoTile extends StatelessWidget {
   const InfoTile(this.fieldName,

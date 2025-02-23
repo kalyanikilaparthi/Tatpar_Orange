@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:tatpar_acf/features/case/data/source_models/diagnosis_data.dart';
-import 'package:tatpar_acf/features/case/data/source_models/data_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/diagnosis_data.dart';
+import 'package:tatpar_orange/features/case/data/source_models/data_model.dart';
 
 import '../data/repos/source_repo.dart';
 part 'source_cubit.freezed.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
 
 class LoginRegisterToggle extends StatelessWidget {
   const LoginRegisterToggle({super.key, this.isLogin = true});

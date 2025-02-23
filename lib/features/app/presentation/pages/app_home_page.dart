@@ -3,10 +3,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
-import 'package:tatpar_acf/features/authentication/blocs/auth_cubit.dart';
-import 'package:tatpar_acf/features/case/blocs/case_cubit.dart';
-import 'package:tatpar_acf/features/home/presentation/widgets/app_bar_action.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
+import 'package:tatpar_orange/features/authentication/blocs/auth_cubit.dart';
+import 'package:tatpar_orange/features/case/blocs/case_cubit.dart';
+import 'package:tatpar_orange/features/home/presentation/widgets/app_bar_action.dart';
 
 @RoutePage()
 class AppHomePage extends StatelessWidget implements AutoRouteWrapper {

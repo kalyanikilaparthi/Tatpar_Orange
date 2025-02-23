@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:reactive_forms/reactive_forms.dart';
-import 'package:tatpar_acf/utils/mixins/cubit_maybe_emit_mixin.dart';
+import 'package:tatpar_orange/utils/mixins/cubit_maybe_emit_mixin.dart';
 
 import '../authentication.dart';
 import '../data/repo/auth_repo.dart';

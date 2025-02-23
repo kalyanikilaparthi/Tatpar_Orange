@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/constants/assets.gen.dart';
+import 'package:tatpar_orange/configurations/constants/assets.gen.dart';
 
 import '../../../../configurations/theme/colors.dart';
 

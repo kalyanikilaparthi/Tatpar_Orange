@@ -1,6 +1,6 @@
-// import 'package:tatpar_acf/configurations/configurations.dart';
+// import 'package:tatpar_orange/configurations/configurations.dart';
 
-//mport 'package:tatpar_acf/configurations/configurations.dart';
+//mport 'package:tatpar_orange/configurations/configurations.dart';
 
 // final contactTracingRoutes = [
 //   AutoRoute(

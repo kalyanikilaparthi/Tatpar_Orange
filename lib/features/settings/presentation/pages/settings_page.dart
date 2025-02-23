@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tatpar_acf/l10n/l10n.dart';
-import 'package:tatpar_acf/l10n/language_provider.dart';
+import 'package:tatpar_orange/l10n/l10n.dart';
+import 'package:tatpar_orange/l10n/language_provider.dart';
 
 import '../../../../configurations/configurations.dart';
 

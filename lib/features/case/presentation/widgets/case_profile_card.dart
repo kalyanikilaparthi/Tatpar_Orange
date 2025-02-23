@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:tatpar_acf/features/case/presentation/widgets/info_tile.dart';
+import 'package:tatpar_orange/features/case/presentation/widgets/info_tile.dart';
 
 import '../../../../configurations/theme/size_constants.dart';
 

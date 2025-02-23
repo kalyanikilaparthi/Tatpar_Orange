@@ -1,13 +1,13 @@
 // Global APP - specific constants
 
 import 'package:reactive_forms/reactive_forms.dart';
-import 'package:tatpar_acf/configurations/constants/fonts.gen.dart';
+import 'package:tatpar_orange/configurations/constants/fonts.gen.dart';
 
 ///Generate by running ```fluttergen``` in the terminal
 export 'assets.gen.dart'; //Uncomment if assets are needed
 export 'fonts.gen.dart';
 
-const appName = 'Tatpar ACF';
+const appName = 'Tatpar Orange';
 const kFontFamily = FontFamily.montserrat;
 
 const nikshaySetuLink =

@@ -4,18 +4,18 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:reactive_forms/reactive_forms.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
-import 'package:tatpar_acf/features/app/presentation/widgets/chip_radio_buttons.dart';
-import 'package:tatpar_acf/features/app/presentation/widgets/date_text_input.dart';
-import 'package:tatpar_acf/features/app/presentation/widgets/primary_text_field.dart';
-import 'package:tatpar_acf/features/app/presentation/widgets/text_field_with_list.dart';
-import 'package:tatpar_acf/features/case/blocs/case_cubit.dart';
-import 'package:tatpar_acf/features/case/blocs/source_cubit.dart';
-import 'package:tatpar_acf/features/case/data/case_models/case_model.dart';
-import 'package:tatpar_acf/features/case/data/source_models/referral_districts_model.dart';
-import 'package:tatpar_acf/features/referral/model/referral_details_model.dart';
-import 'package:tatpar_acf/features/referral/presentation/widgets/bottom_button_bar.dart';
-import 'package:tatpar_acf/features/referral/presentation/widgets/case_app_bar.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
+import 'package:tatpar_orange/features/app/presentation/widgets/chip_radio_buttons.dart';
+import 'package:tatpar_orange/features/app/presentation/widgets/date_text_input.dart';
+import 'package:tatpar_orange/features/app/presentation/widgets/primary_text_field.dart';
+import 'package:tatpar_orange/features/app/presentation/widgets/text_field_with_list.dart';
+import 'package:tatpar_orange/features/case/blocs/case_cubit.dart';
+import 'package:tatpar_orange/features/case/blocs/source_cubit.dart';
+import 'package:tatpar_orange/features/case/data/case_models/case_model.dart';
+import 'package:tatpar_orange/features/case/data/source_models/referral_districts_model.dart';
+import 'package:tatpar_orange/features/referral/model/referral_details_model.dart';
+import 'package:tatpar_orange/features/referral/presentation/widgets/bottom_button_bar.dart';
+import 'package:tatpar_orange/features/referral/presentation/widgets/case_app_bar.dart';
 
 @RoutePage()
 class BasicDetails extends StatelessWidget {

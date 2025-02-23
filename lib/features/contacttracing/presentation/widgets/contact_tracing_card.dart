@@ -2,13 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
 import 'package:intl/intl.dart';
-import 'package:tatpar_acf/features/case/blocs/source_cubit.dart';
-import 'package:tatpar_acf/features/case/data/source_models/diagnosis_data_fields.dart';
+import 'package:tatpar_orange/features/case/blocs/source_cubit.dart';
+import 'package:tatpar_orange/features/case/data/source_models/diagnosis_data_fields.dart';
 
-import 'package:tatpar_acf/features/contacttracing/models/contact_tracing_model.dart';
-import 'package:tatpar_acf/features/home/presentation/widgets/disease_chips.dart';
+import 'package:tatpar_orange/features/contacttracing/models/contact_tracing_model.dart';
+import 'package:tatpar_orange/features/home/presentation/widgets/disease_chips.dart';
 
 class ContactTracingCard extends StatelessWidget {
   const ContactTracingCard({super.key, required this.model});

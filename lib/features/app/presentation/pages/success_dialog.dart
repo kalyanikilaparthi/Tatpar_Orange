@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
 
 @RoutePage()
 class SuccessDialogPage extends StatelessWidget {

@@ -1,8 +1,8 @@
-import 'package:tatpar_acf/configurations/network/api_constants.dart';
-import 'package:tatpar_acf/configurations/network/application_error.dart';
-import 'package:tatpar_acf/configurations/network/network_manager.dart';
-import 'package:tatpar_acf/configurations/network/network_request.dart';
-import 'package:tatpar_acf/features/case/data/source_models/data_model.dart';
+import 'package:tatpar_orange/configurations/network/api_constants.dart';
+import 'package:tatpar_orange/configurations/network/application_error.dart';
+import 'package:tatpar_orange/configurations/network/network_manager.dart';
+import 'package:tatpar_orange/configurations/network/network_request.dart';
+import 'package:tatpar_orange/features/case/data/source_models/data_model.dart';
 
 class ReferralDetailsRepository {
   Future<DataModel> buildDataFields() async {

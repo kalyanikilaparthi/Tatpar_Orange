@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import 'package:tatpar_acf/configurations/configurations.dart';
-import 'package:tatpar_acf/features/case/blocs/case_cubit.dart';
-import 'package:tatpar_acf/features/referral/presentation/widgets/user_name_bar.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
+import 'package:tatpar_orange/features/case/blocs/case_cubit.dart';
+import 'package:tatpar_orange/features/referral/presentation/widgets/user_name_bar.dart';
 
 class CaseAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CaseAppBar(this.title, {required this.onClick, super.key});

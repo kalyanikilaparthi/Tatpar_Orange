@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/features/authentication/authentication.dart';
+import 'package:tatpar_orange/features/authentication/authentication.dart';
 
 /// Checks for intialUser, if available then triggers onLogin callback,
 /// as `BlocListener` doesn't listen to intial state

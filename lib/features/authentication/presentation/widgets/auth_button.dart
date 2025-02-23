@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/theme/size_constants.dart';
+import 'package:tatpar_orange/configurations/theme/size_constants.dart';
 
 class AuthButton extends StatelessWidget {
   const AuthButton({super.key, required this.text, required this.onClick});

@@ -1,9 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
-import 'package:tatpar_acf/features/authentication/blocs/auth_cubit.dart';
+import 'package:tatpar_orange/features/authentication/blocs/auth_cubit.dart';
 
 import 'api_constants.dart';
 import 'api_response.dart';

@@ -1,4 +1,4 @@
-import 'package:tatpar_acf/configurations/configurations.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
 
 final appHomeRoutes = [
   AutoRoute(

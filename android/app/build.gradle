@@ -34,7 +34,7 @@ if (flutterVersionName == null) {
 
 android {
     ndkVersion "27.0.12077973"
-    namespace "com.mylabs.tatpar_acf"
+    namespace "com.mylabs.tatpar_orange"
     compileSdkVersion flutter.compileSdkVersion
 
     compileOptions {
@@ -51,7 +51,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mylabs.tatpar_acf"
+        applicationId "com.mylabs.tatpar_orange"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 23

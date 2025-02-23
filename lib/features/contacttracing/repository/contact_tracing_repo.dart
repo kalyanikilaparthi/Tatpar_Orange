@@ -1,11 +1,11 @@
 // import 'dart:developer';
 
-// import 'package:tatpar_acf/configurations/network/api_constants.dart';
-// import 'package:tatpar_acf/configurations/network/api_response.dart';
-// import 'package:tatpar_acf/configurations/network/application_error.dart';
-// import 'package:tatpar_acf/configurations/network/network_manager.dart';
-// import 'package:tatpar_acf/configurations/network/network_request.dart';
-// import 'package:tatpar_acf/features/contacttracing/models/contact_tracing_model.dart';
+// import 'package:tatpar_orange/configurations/network/api_constants.dart';
+// import 'package:tatpar_orange/configurations/network/api_response.dart';
+// import 'package:tatpar_orange/configurations/network/application_error.dart';
+// import 'package:tatpar_orange/configurations/network/network_manager.dart';
+// import 'package:tatpar_orange/configurations/network/network_request.dart';
+// import 'package:tatpar_orange/features/contacttracing/models/contact_tracing_model.dart';
 
 // class ContactTracingRepo {
 //   Future<List<ContactTracingModel>> getContactTracingList() async {

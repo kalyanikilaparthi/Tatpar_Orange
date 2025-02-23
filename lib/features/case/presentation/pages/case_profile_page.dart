@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tatpar_acf/features/case/blocs/case_cubit.dart';
-import 'package:tatpar_acf/features/case/presentation/widgets/case_profile_card.dart';
-import 'package:tatpar_acf/features/referral/presentation/widgets/case_app_bar.dart';
+import 'package:tatpar_orange/features/case/blocs/case_cubit.dart';
+import 'package:tatpar_orange/features/case/presentation/widgets/case_profile_card.dart';
+import 'package:tatpar_orange/features/referral/presentation/widgets/case_app_bar.dart';
 import 'package:timelines_plus/timelines_plus.dart';
 
 import '../../../../configurations/configurations.dart';

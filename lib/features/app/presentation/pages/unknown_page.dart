@@ -11,7 +11,7 @@ class UnknownPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final textTheme = Theme.of(context).textTheme;
 
-    return NBSScaffold(
+    return TatparOrangeScaffold(
       appBarTitleText: 'Unknown Route',
       body: Container(
         width: double.infinity,

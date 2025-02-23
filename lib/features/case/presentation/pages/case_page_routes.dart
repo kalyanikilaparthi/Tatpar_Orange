@@ -1,4 +1,4 @@
-import 'package:tatpar_acf/features/mentalhealthscreening/presentation/pages/mental_health_routes.dart';
+import 'package:tatpar_orange/features/mentalhealthscreening/presentation/pages/mental_health_routes.dart';
 
 import '../../../../configurations/configurations.dart';
 

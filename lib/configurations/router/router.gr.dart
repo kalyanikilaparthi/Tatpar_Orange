@@ -10,67 +10,67 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i30;
 import 'package:flutter/material.dart' as _i31;
-import 'package:tatpar_acf/features/app/presentation/pages/app_home_page.dart'
+import 'package:tatpar_orange/features/app/presentation/pages/app_home_page.dart'
     deferred as _i1;
-import 'package:tatpar_acf/features/app/presentation/pages/success_dialog.dart'
+import 'package:tatpar_orange/features/app/presentation/pages/success_dialog.dart'
     deferred as _i24;
-import 'package:tatpar_acf/features/app/presentation/pages/unknown_page.dart'
+import 'package:tatpar_orange/features/app/presentation/pages/unknown_page.dart'
     deferred as _i28;
-import 'package:tatpar_acf/features/authentication/presentation/pages/auth_router_page.dart'
+import 'package:tatpar_orange/features/authentication/presentation/pages/auth_router_page.dart'
     deferred as _i2;
-import 'package:tatpar_acf/features/authentication/presentation/pages/login_page.dart'
+import 'package:tatpar_orange/features/authentication/presentation/pages/login_page.dart'
     deferred as _i15;
-import 'package:tatpar_acf/features/authentication/presentation/pages/phone_login_page.dart'
+import 'package:tatpar_orange/features/authentication/presentation/pages/phone_login_page.dart'
     deferred as _i19;
-import 'package:tatpar_acf/features/authentication/presentation/pages/register_page.dart'
+import 'package:tatpar_orange/features/authentication/presentation/pages/register_page.dart'
     deferred as _i22;
-import 'package:tatpar_acf/features/basicdetails/presentation/pages/basicdetails_page.dart'
+import 'package:tatpar_orange/features/basicdetails/presentation/pages/basicdetails_page.dart'
     deferred as _i3;
-import 'package:tatpar_acf/features/case/data/case_models/case_model.dart'
+import 'package:tatpar_orange/features/case/data/case_models/case_model.dart'
     as _i32;
-import 'package:tatpar_acf/features/case/presentation/pages/case_profile_page.dart'
+import 'package:tatpar_orange/features/case/presentation/pages/case_profile_page.dart'
     deferred as _i5;
-import 'package:tatpar_acf/features/case/presentation/pages/case_router_page.dart'
+import 'package:tatpar_orange/features/case/presentation/pages/case_router_page.dart'
     deferred as _i6;
-import 'package:tatpar_acf/features/conducttbscreening/presentation/pages/tb_screening_page.dart'
+import 'package:tatpar_orange/features/conducttbscreening/presentation/pages/tb_screening_page.dart'
     deferred as _i25;
-import 'package:tatpar_acf/features/contacttracing/models/contact_tracing_model.dart'
+import 'package:tatpar_orange/features/contacttracing/models/contact_tracing_model.dart'
     as _i33;
-import 'package:tatpar_acf/features/contacttracing/presentation/pages/contact_tracing_list_page.dart'
+import 'package:tatpar_orange/features/contacttracing/presentation/pages/contact_tracing_list_page.dart'
     deferred as _i9;
-import 'package:tatpar_acf/features/contacttracing/presentation/pages/contact_tracing_page.dart'
+import 'package:tatpar_orange/features/contacttracing/presentation/pages/contact_tracing_page.dart'
     deferred as _i10;
-import 'package:tatpar_acf/features/contacttracing/presentation/pages/contact_tracing_router_page.dart'
+import 'package:tatpar_orange/features/contacttracing/presentation/pages/contact_tracing_router_page.dart'
     deferred as _i11;
-import 'package:tatpar_acf/features/diagnosis/presentation/pages/diagnosis_page.dart'
+import 'package:tatpar_orange/features/diagnosis/presentation/pages/diagnosis_page.dart'
     deferred as _i12;
-import 'package:tatpar_acf/features/faochecklist/presentation/faq_checklist_page.dart'
+import 'package:tatpar_orange/features/faochecklist/presentation/faq_checklist_page.dart'
     deferred as _i13;
-import 'package:tatpar_acf/features/home/presentation/pages/case_filter_right_page.dart'
+import 'package:tatpar_orange/features/home/presentation/pages/case_filter_right_page.dart'
     deferred as _i4;
-import 'package:tatpar_acf/features/home/presentation/pages/cases_filter_dialog_page.dart'
+import 'package:tatpar_orange/features/home/presentation/pages/cases_filter_dialog_page.dart'
     deferred as _i7;
-import 'package:tatpar_acf/features/home/presentation/pages/cases_page.dart'
+import 'package:tatpar_orange/features/home/presentation/pages/cases_page.dart'
     deferred as _i8;
-import 'package:tatpar_acf/features/home/presentation/pages/home_page.dart'
+import 'package:tatpar_orange/features/home/presentation/pages/home_page.dart'
     deferred as _i14;
-import 'package:tatpar_acf/features/mentalhealthscreening/presentation/pages/mental_health_router_page.dart'
+import 'package:tatpar_orange/features/mentalhealthscreening/presentation/pages/mental_health_router_page.dart'
     deferred as _i16;
-import 'package:tatpar_acf/features/mentalhealthscreening/presentation/pages/mental_health_screening_page.dart'
+import 'package:tatpar_orange/features/mentalhealthscreening/presentation/pages/mental_health_screening_page.dart'
     deferred as _i17;
-import 'package:tatpar_acf/features/mentalhealthscreening/presentation/pages/who_srq_page.dart'
+import 'package:tatpar_orange/features/mentalhealthscreening/presentation/pages/who_srq_page.dart'
     deferred as _i29;
-import 'package:tatpar_acf/features/outcome/presentation/pages/outcome_page.dart'
+import 'package:tatpar_orange/features/outcome/presentation/pages/outcome_page.dart'
     deferred as _i18;
-import 'package:tatpar_acf/features/profile/presentation/pages/profile_page.dart'
+import 'package:tatpar_orange/features/profile/presentation/pages/profile_page.dart'
     deferred as _i20;
-import 'package:tatpar_acf/features/referral/presentation/pages/referraldetails.dart'
+import 'package:tatpar_orange/features/referral/presentation/pages/referraldetails.dart'
     deferred as _i21;
-import 'package:tatpar_acf/features/settings/presentation/pages/settings_page.dart'
+import 'package:tatpar_orange/features/settings/presentation/pages/settings_page.dart'
     deferred as _i23;
-import 'package:tatpar_acf/features/tasks/presentation/pages/tasks_page.dart'
+import 'package:tatpar_orange/features/tasks/presentation/pages/tasks_page.dart'
     deferred as _i26;
-import 'package:tatpar_acf/features/treatment/presentation/pages/treatment_page.dart'
+import 'package:tatpar_orange/features/treatment/presentation/pages/treatment_page.dart'
     deferred as _i27;
 
 abstract class $AppRouter extends _i30.RootStackRouter {

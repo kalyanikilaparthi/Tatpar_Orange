@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tatpar_acf/configurations/configurations.dart';
-import 'package:tatpar_acf/features/authentication/presentation/widgets/auth_button.dart';
-import 'package:tatpar_acf/features/case/blocs/case_cubit.dart';
-import 'package:tatpar_acf/features/contacttracing/models/contact_tracing_model.dart';
-import 'package:tatpar_acf/features/contacttracing/presentation/widgets/contact_tracing_card.dart';
-import 'package:tatpar_acf/features/referral/presentation/widgets/case_app_bar.dart';
+import 'package:tatpar_orange/configurations/configurations.dart';
+import 'package:tatpar_orange/features/authentication/presentation/widgets/auth_button.dart';
+import 'package:tatpar_orange/features/case/blocs/case_cubit.dart';
+import 'package:tatpar_orange/features/contacttracing/models/contact_tracing_model.dart';
+import 'package:tatpar_orange/features/contacttracing/presentation/widgets/contact_tracing_card.dart';
+import 'package:tatpar_orange/features/referral/presentation/widgets/case_app_bar.dart';
 
 @RoutePage()
 class ContactTracingListPage extends StatelessWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:tatpar_acf/features/case/data/repos/case_repo.dart';
-import 'package:tatpar_acf/features/contacttracing/models/contact_tracing_model.dart';
+import 'package:tatpar_orange/features/case/data/repos/case_repo.dart';
+import 'package:tatpar_orange/features/contacttracing/models/contact_tracing_model.dart';
 part 'contact_tracing_cubit.freezed.dart';
 part 'contact_tracing_cubit.g.dart';
 

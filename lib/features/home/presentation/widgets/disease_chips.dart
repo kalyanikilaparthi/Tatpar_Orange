@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tatpar_acf/configurations/theme/colors.dart';
-import 'package:tatpar_acf/configurations/theme/size_constants.dart';
+import 'package:tatpar_orange/configurations/theme/colors.dart';
+import 'package:tatpar_orange/configurations/theme/size_constants.dart';
 
 class DiseaseChip extends StatelessWidget {
   const DiseaseChip(this.text, {super.key, this.color});

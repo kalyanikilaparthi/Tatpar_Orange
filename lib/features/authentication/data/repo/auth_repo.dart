@@ -2,17 +2,12 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:djangoflow_app/djangoflow_app.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tatpar_acf/configurations/network/api_constants.dart';
-import 'package:tatpar_acf/configurations/network/api_response.dart';
-import 'package:tatpar_acf/configurations/network/application_error.dart';
-import 'package:tatpar_acf/configurations/network/network_manager.dart';
-import 'package:tatpar_acf/configurations/network/network_request.dart';
-import 'package:tatpar_acf/features/authentication/blocs/auth_cubit.dart';
-import 'package:tatpar_acf/features/authentication/data/models/app_user_model.dart';
-import 'package:tatpar_acf/features/authentication/data/models/login_model.dart';
+import 'package:tatpar_orange/configurations/network/api_constants.dart';
+import 'package:tatpar_orange/configurations/network/api_response.dart';
+import 'package:tatpar_orange/configurations/network/network_manager.dart';
+import 'package:tatpar_orange/configurations/network/network_request.dart';
+import 'package:tatpar_orange/features/authentication/data/models/app_user_model.dart';
 
 class AuthRepo {
   AuthRepo();

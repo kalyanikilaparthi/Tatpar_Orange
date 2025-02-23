@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tatpar_acf/configurations/router/router.dart';
-import 'package:tatpar_acf/features/case/data/repos/case_repo.dart';
-import 'package:tatpar_acf/features/contacttracing/data/contact_tracing_cubit.dart';
-import 'package:tatpar_acf/features/contacttracing/models/contact_tracing_model.dart';
-import 'package:tatpar_acf/features/contacttracing/presentation/pages/contact_tracing_page.dart';
+import 'package:tatpar_orange/configurations/router/router.dart';
+import 'package:tatpar_orange/features/case/data/repos/case_repo.dart';
+import 'package:tatpar_orange/features/contacttracing/data/contact_tracing_cubit.dart';
+import 'package:tatpar_orange/features/contacttracing/models/contact_tracing_model.dart';
+import 'package:tatpar_orange/features/contacttracing/presentation/pages/contact_tracing_page.dart';
 
 @RoutePage(name: 'ContactTracingRouter')
 class ContactTracingRouterPage extends StatelessWidget {

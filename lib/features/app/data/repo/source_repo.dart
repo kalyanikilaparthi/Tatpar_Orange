@@ -1,6 +1,6 @@
-// import 'package:tatpar_acf/configurations/network/api_response.dart';
-// import 'package:tatpar_acf/configurations/network/network_manager.dart';
-// import 'package:tatpar_acf/features/app/data/models/source_model.dart';
+// import 'package:tatpar_orange/configurations/network/api_response.dart';
+// import 'package:tatpar_orange/configurations/network/network_manager.dart';
+// import 'package:tatpar_orange/features/app/data/models/source_model.dart';
 
 // import '../../../../configurations/network/api_constants.dart';
 // import '../../../../configurations/network/network_request.dart';

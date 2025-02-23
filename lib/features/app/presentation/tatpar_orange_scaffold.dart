@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../app.dart';
 
-class NBSScaffold extends StatelessWidget {
-  const NBSScaffold({
+class TatparOrangeScaffold extends StatelessWidget {
+  const TatparOrangeScaffold({
     super.key,
     this.showAppBar = true,
     required this.body,
@@ -32,7 +32,7 @@ class NBSScaffold extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         body: body,
         appBar: showAppBar
-            ? NBSAppBar(
+            ? TatparOrangeAppBar(
                 appBarTitleText: appBarTitleText,
                 appBarTitleWidget: appBarTitleWidget,
                 actions: actions,

@@ -2,7 +2,7 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:tatpar_acf/features/case/data/source_models/diagnosis_data_fields.dart';
+import 'package:tatpar_orange/features/case/data/source_models/diagnosis_data_fields.dart';
 part 'diagnosis_data.freezed.dart';
 part 'diagnosis_data.g.dart';
 

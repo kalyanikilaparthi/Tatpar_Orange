@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:reactive_forms/reactive_forms.dart';
-import 'package:tatpar_acf/features/app/presentation/widgets/primary_text_field.dart';
-import 'package:tatpar_acf/features/authentication/authentication.dart';
+import 'package:tatpar_orange/features/app/presentation/widgets/primary_text_field.dart';
+import 'package:tatpar_orange/features/authentication/authentication.dart';
 
 import '../../../../configurations/configurations.dart';
 
