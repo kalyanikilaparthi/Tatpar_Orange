@@ -13,6 +13,7 @@ import 'package:tatpar_orange/features/case/blocs/case_cubit.dart';
 import 'package:tatpar_orange/features/case/blocs/source_cubit.dart';
 import 'package:tatpar_orange/features/case/data/source_models/diagnosis_data_fields.dart';
 import 'package:tatpar_orange/features/case/presentation/widgets/bottom_button_bar.dart';
+import 'package:tatpar_orange/features/case/presentation/widgets/secondary_text_field.dart';
 import 'package:tatpar_orange/features/diagnosis/model/diagnosis_model.dart';
 import 'package:tatpar_orange/features/referral/presentation/widgets/case_app_bar.dart';
 
