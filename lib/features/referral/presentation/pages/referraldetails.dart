@@ -444,8 +444,7 @@ class ReferralDetailsPage extends StatelessWidget {
                                                       null)
                                                   ? state
                                                       .dataModel!.casteCategory!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                               if (state.isLoading ?? false) {
@@ -487,8 +486,7 @@ class ReferralDetailsPage extends StatelessWidget {
                                                       null)
                                                   ? state
                                                       .dataModel!.keyPopulation!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                               if (state.isLoading ?? false) {
@@ -554,8 +552,7 @@ class ReferralDetailsPage extends StatelessWidget {
                                                           .dataModel !=
                                                       null)
                                                   ? state.dataModel!.trimester!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                               if (state.isLoading ?? false) {
@@ -629,8 +626,7 @@ class ReferralDetailsPage extends StatelessWidget {
                                                       null)
                                                   ? state.dataModel!
                                                       .referrerSource!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                               if (state.isLoading ?? false) {

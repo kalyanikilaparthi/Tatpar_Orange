@@ -390,8 +390,7 @@ class TBScreeningPage extends StatelessWidget {
                                         List<String> list =
                                             (state.dataModel != null)
                                                 ? state.dataModel!.trimester!
-                                                    .map((e) =>
-                                                        '${e.id}:\t${e.name}')
+                                                    .map((e) => '${e.name}')
                                                     .toList()
                                                 : [];
                                         if (state.isLoading ?? false) {

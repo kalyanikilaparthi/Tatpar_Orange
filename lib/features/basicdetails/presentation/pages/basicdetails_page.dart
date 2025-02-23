@@ -309,8 +309,7 @@ class BasicDetails extends StatelessWidget {
                                               (state.dataModel != null)
                                                   ? state
                                                       .dataModel!.casteCategory!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                           if (state.isLoading ?? false) {
@@ -350,8 +349,7 @@ class BasicDetails extends StatelessWidget {
                                               (state.dataModel != null)
                                                   ? state
                                                       .dataModel!.keyPopulation!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                           if (state.isLoading ?? false) {
@@ -409,8 +407,7 @@ class BasicDetails extends StatelessWidget {
                                               (state.dataModel != null)
                                                   ? state.dataModel!
                                                       .referrerSource!
-                                                      .map((e) =>
-                                                          '${e.id}:\t${e.name}')
+                                                      .map((e) => '${e.name}')
                                                       .toList()
                                                   : [];
                                           if (state.isLoading ?? false) {
